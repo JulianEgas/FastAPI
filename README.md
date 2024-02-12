@@ -8,7 +8,10 @@ This endpoint retrieves the current date and time in two different formats based
 
 - Request Type: POST
 - Parameters: date_with_minutes (boolean): Set to true to get the date and time in "yyyy-mm-dd hh:ii:ss" format, or false to get the date in "yyyy-dd-mm" format.
-- Response: - 200 OK: Returns the current date and time in the specified format. - 400 Bad Request: If the request is invalid.
+- Response:
+- 200 OK: Returns the current date and time in the specified format.
+- 400 Bad Request: If the request is invalid.
+
 - Example Usage:
 - Request:
     {
