@@ -12,7 +12,7 @@ This endpoint retrieves the current date and time in two different formats based
 - 200 OK: Returns the current date and time in the specified format.
 - 400 Bad Request: If the request is invalid.
 
-- Example Usage:
+Example Usage:
 - Request:
     {
   "format_date": true
